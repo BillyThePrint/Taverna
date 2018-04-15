@@ -80,20 +80,19 @@ jQuery(document).ready(function($) {
         else var str = $(this).serialize();		
             $.ajax({
                 type: "POST",
-                url: "contactform/contactform.php",
+                url: "contactform/enviaMail.php",
                 data: str,
-                success: function(msg){
-                   // alert(msg);
-                    if(msg == 'OK') {
-                        $("#sendmessage").addClass("show");			
-                        $("#errormessage").removeClass("show");	
-                    }
-                    else {
-                        $("#sendmessage").removeClass("show");
-                        $("#errormessage").addClass("show");
-                        $('#errormessage').html(msg);
-                    }
+                error: function(){
+                       $("#sendmessage").hide();
+                       $("#errormessage").show();
+                       
+                }
+                ,
+                success: function(data){
                     
+                        $("#sendmessage").show();	
+                        $("#errormessage").hide();	
+                  
                 }
             });
         return false;
