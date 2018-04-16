@@ -204,7 +204,7 @@
         </div>
         <div class="col-md-8 col-sm-8">
           <form action="" method="post" role="form" class="contactForm">
-            <div id="sendmessage">Su mensaje se evió correctamente, nos pondremos en contacto a la brevedad!</div>
+            <div id="sendmessage">Su mensaje se envió correctamente, nos pondremos en contacto a la brevedad!</div>
             <div id="errormessage">Error al enviar el mensaje</div>
             <div class="col-md-6 col-sm-6 contact-form pad-form">
               <div class="form-group label-floating is-empty">
