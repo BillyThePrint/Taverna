@@ -1,6 +1,6 @@
 <?php 
 
-$para = "maximilianoariela@gmail.com";
+$para = "gonzalvomartin@gmail.com";
 $asunto = "Consulta Desde Taverna";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";

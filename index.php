@@ -11,7 +11,19 @@
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
- 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-33971158-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
 </head>
 
 <body>
@@ -70,7 +82,7 @@
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
-            <img src="img/albondigas.jpg" alt="" class="img-responsive">
+            <img src="img/empresarial/empweb2017.jpg" alt="" class="img-responsive">
           </div>
         </div>
         <div class="col-md-1"></div>
@@ -204,8 +216,6 @@
         </div>
         <div class="col-md-8 col-sm-8">
           <form action="" method="post" role="form" class="contactForm">
-            <div id="sendmessage">Su mensaje se evió correctamente, nos pondremos en contacto a la brevedad!</div>
-            <div id="errormessage">Error al enviar el mensaje</div>
             <div class="col-md-6 col-sm-6 contact-form pad-form">
               <div class="form-group label-floating is-empty">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Nombre y/o apellido" data-rule="minlen:4" data-msg="Ingrese al menos 4 letras" />
@@ -237,8 +247,11 @@
               </div>
 
             </div>
+            
             <div class="col-md-12 btnpad">
               <div class="contacts-btn-pad">
+              <div id="sendmessage">Su mensaje se evió correctamente, nos pondremos en contacto a la brevedad!</div>
+            <div id="errormessage">Error al enviar el mensaje</div>
                 <button class="contacts-btn">Enviar</button>
               </div>
             </div>
@@ -261,7 +274,7 @@
               <a href="https://www.facebook.com/natalia.tavernacatering/?fref=ts"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </div>
             <p class="copyright clear-float">
-              © Billy The Print - Todos los derechos reservados, gatos!
+              © Billy The Print - Todos los derechos reservados
               <div class="credits">
                 
                
