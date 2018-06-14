@@ -22,8 +22,7 @@
 
 </script>
 
-
-
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
 </head>
 
 <body>
@@ -34,9 +33,11 @@
         <div class="container">
           <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#about">Quienes Somos</a>
+            <a href=pag/nosotros.html>Quienes Somos</a>
             <a href="#event">Nuestros Servicios</a>
-            <a href="#menu-list">Menu</a>
+            <a href="pag/launch.html">Lunch</a>
+            <a href="pag/empresarial.html"> Eventos empresariales</a>
+            <a href="pag/dulces.html">Dulces</a>
             <a href="#contact">Contacto</a>
           </div>
           <!-- Use any element to open the sidenav -->
@@ -47,48 +48,253 @@
         <div class="row">
           <div class="inner text-center">
             <h1 class="logo-name">Natalia Taverna Catering</h1>
-            <h2>Comida para tus eventos</h2>
-            <p>Especialidad en Catering!!</p>
+           
+            <p>Experiencia y responsabilidad a su servicio</p>
+   
           </div>
         </div>
       </div>
     </div>
   </section>
+
+<div class="separador"></div>
   <!-- / banner -->
   <!--about-->
-  <section id="about" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center marb-35">
-          <h1 class="header-h">Bienvenidos a Natalia Taverna </h1>
-          <p class="header-p"> </p>
-        </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <div class="col-md-6 col-sm-6">
-            <div class="about-info">
-              <h2 class="heading">Nuestro servicio</h2>
-              <p>Ofrecemos un servicio gastronómico que integra sabores tradicionales de la cocina hogareña de cuidada elaboración, con una cocina moderna, destacada en la estética de sus productos y en combinaciones novedosas.
-
-                Contamos con un servicio que brinda innovación,
-                calidad y profesionalismo, al momento de llevar a cabo reuniones empresariales, pequeños team meetings o eventos sociales. 
-
-                Asimismo, comprendemos que cada acontecimiento resulta único, y nos esforzamos en hacer de la personalización del servicio uno de nuestros mayores objetivos, para que su evento resulte de una identidad sin igual.
-
-                Nos encontrará en la agilidad de resolución,
-                en el cumplimiento a tiempo del servicio requerido, en una cosmopolita travesía de sabores y en el equilibrio de nuestra cocina 
-                simple y cautivante</p>
+  <section id="servicios"  >
+                  <div class="container">
+               <div class="">
+                <div class="inner span8" style="font-family: 'Lobster', cursive;">
+                  <h1 class="logo-name">Empresarial</h1>
+              
+              <p  class="lista2" >En Taverna Catering ofrecemos un servicio integral para Eventos Empresariales. </p>
+           <p  class="lista2" > Nuestro Catering Corporativo cuenta con una amplia variedad de opciones para que su jornada de trabajo, congreso o reunión encuentre la opción más adecuada para ud. y sus clientes.</p>
+           <p  class="lista2" > Contáctenos y armaremos una propuesta acorde a su evento. Años de experiencia y responsabilidad nos avalan.</p>
+              <h2>Desayunos y Coffee Break</h2>
+              
+              <h2>Lunch / Almuerzos</h2>
              
-            </div>
+              <h2>Variedades Dulces </h2>
+            
+              <p style="font-size:22px;">* Consulte por productos y servicios especiales: Cazuelas, Tablas de quesos y fiambres artesanales, servicios de Cheese & Wine.</p>
+             <a href="pag/empresarial.html"><p style="font-size:45px;">+ Info</p></a>
+
+
+               <div class="inner span4">
+ <ul class="galeria">
+              <li><a href="#img1"><img src="img\empresarial\empre1.jpg"class="img-thumbnail"></a></li>
+              <li><a href="#img2"><img src="img\empresarial\empre3.jpg"class="img-thumbnail"></a></li>
+              <li><a href="#img3"><img src="img\empresarial\empre04.jpg"class="img-thumbnail"></a></li>
+              <li><a href="#img4"><img src="img\empresarial\empweb2017.jpg"class="img-thumbnail"></a></li>
+             
+          </ul>
+
+          <div class="modal" id="img1">
+              <h3>Empresarial</h3>
+              <div class="imagen">
+                  <a href="#img4">&#60;</a>
+                  <a href="#img2"><img src="img\empresarial\empre1.jpg"></a>
+                  <a href="#img2">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
           </div>
-          <div class="col-md-6 col-sm-6">
-            <img src="img/empresarial/empweb2017.jpg" alt="" class="img-responsive">
+          
+          <div class="modal" id="img2">
+              <h3>Empresarial</h3>
+              <div class="imagen">
+                  <a href="#img1">&#60;</a>
+                  <a href="#img3"><img src="img\empresarial\empre3.jpg"></a>
+                  <a href="#img3">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
           </div>
-        </div>
-        <div class="col-md-1"></div>
-      </div>
+          
+          <div class="modal" id="img3">
+              <h3>Empresarial</h3>
+              <div class="imagen">
+                  <a href="#img2">&#60;</a>
+                  <a href="#img4"><img src="img\empresarial\empre04.jpg"></a>
+                  <a href="#img4">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
+          </div>
+          
+        
+        <div class="modal" id="img4">
+              <h3>Empresarial</h3>
+              <div class="imagen">
+                  <a href="#img2">&#60;</a>
+                  <a href="#img4"><img src="img\empresarial\empweb2017.jpg"></a>
+                  <a href="#img1">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
+          </div>
+               </div>
+
+              </div>
+              </div>
+
+
+ <div class="">
+                <div class="inner span8" style="font-family: 'Lobster', cursive;">
+                  <h1 class="logo-name">Lunch</h1>
+              <h2>Clasico</h2>
+              <p  class="lista2" >En Taverna Catering ofrecemos un servicio integral para Eventos Empresariales. </p>
+           <p  class="lista2" > Ideal para invitados con un gusto bien clásico, o bien para invitados que no conocemos en profundidad.</p>
+           <p  class="lista2" >Opción adecuada para aquéllos que aprecien los sabores de las preparaciones caseras y artesanales, en su justa combinación con las más exquisitas especias.</p>
+              
+           <h2>Artesanal</h2>
+           <p  class="lista2" > Opción adecuada para aquéllos que aprecien los sabores de las preparaciones caseras y artesanales, en su justa combinación con las más exquisitas especias. </p>
+              <h2>Premium</h2>
+              <p  class="lista2" >Especialmente diseñado para eventos donde los invitados saben apreciar los sabores de la cocina gourmet. </p>
+              <h2>Cocktail</h2>
+              <p  class="lista2" >Opción para eventos de corta duración en el cual los invitados permanecen de pie. Ej: brindis, presentaciones, conferencias, etc.</p>
+             
+             
+             <a href="pag/launch.html"><p style="font-size:45px;">+ Info</p></a>
+
+
+               <div class="inner span4">
+       <ul class="galeria">
+              <li><a href="#imgL1"><img src="img\lunch\1.jpg" class="img-thumbnail"></a></li>
+              <li><a href="#imgL2"><img src="img\lunch\2.jpg" class="img-thumbnail"></a></li>
+              <li><a href="#imgL3"><img src="img\lunch\3.jpg"class="img-thumbnail"></a></li>
+              <li><a href="#imgL4"><img src="img\lunch\4.jpg"class="img-thumbnail"></a></li>
+             
+          </ul>
+
+          <div class="modal" id="imgL1">
+              <h3>Lunch</h3>
+              <div class="imagen">
+                  <a href="#imgL4">&#60;</a>
+                  <a href="#imgL2"><img src="img\lunch\1.jpg.jpg"></a>
+                  <a href="#imgL2">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
+          </div>
+          
+          <div class="modal" id="imgL2">
+              <h3>Lunch</h3>
+              <div class="imagen">
+                  <a href="#imgL1">&#60;</a>
+                  <a href="#imgL3"><img src="img\lunch\2.jpg"></a>
+                  <a href="#imgL3">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
+          </div>
+          
+          <div class="modal" id="imgL3">
+              <h3>Lunch</h3>
+              <div class="imagen">
+                  <a href="#imgL2">&#60;</a>
+                  <a href="#imgL4"><img src="img\lunch\3.jpg"></a>
+                  <a href="#imgL4">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
+          </div>
+          
+        
+        <div class="modal" id="imgL4">
+              <h3>Lunch</h3>
+              <div class="imagen">
+                  <a href="#imgL2">&#60;</a>
+                  <a href="#imgL4"><img src="img\lunch\4.jpg"></a>
+                  <a href="#imgL1">></a>
+              </div>
+              <a class="cerrar" href="#servicios"><i class="fas fa-window-close"></i></a>
+          </div>
+               </div>
+
+              </div>
+              </div>
+
+
+ <div class="">
+                <div class="inner span8" style="font-family: 'Lobster', cursive;">
+                  <h1 class="logo-name">Coffe Breack</h1>
+              <!-- <h2>Clasico</h2>
+              <p  class="lista2" >En Taverna Catering ofrecemos un servicio integral para Eventos Empresariales. </p>
+           <p  class="lista2" > Ideal para invitados con un gusto bien clásico, o bien para invitados que no conocemos en profundidad.</p>
+           <p  class="lista2" >Opción adecuada para aquéllos que aprecien los sabores de las preparaciones caseras y artesanales, en su justa combinación con las más exquisitas especias.</p>
+              
+           <h2>Artesanal</h2>
+           <p  class="lista2" > Opción adecuada para aquéllos que aprecien los sabores de las preparaciones caseras y artesanales, en su justa combinación con las más exquisitas especias. </p>
+              <h2>Premium</h2>
+              <p  class="lista2" >Especialmente diseñado para eventos donde los invitados saben apreciar los sabores de la cocina gourmet. </p>
+              <h2>Cocktail</h2>
+              <p  class="lista2" >Opción para eventos de corta duración en el cual los invitados permanecen de pie. Ej: brindis, presentaciones, conferencias, etc.</p>
+              
+             
+             <a href="pag/launch.html"><p style="font-size:45px;">+ Info</p></a>
+-->
+
+               <div class="inner span4">
+       <ul class="galeria">
+              <li><a href="#imgC1"><img src="img\coffe\1.jpg"class="img-thumbnail"></a></li>
+              <li><a href="#imgC2"><img src="img\coffe\2.jpg"class="img-thumbnail"></a></li>
+              <li><a href="#imgC3"><img src="img\coffe\3.jpg"class="img-thumbnail"></a></li>
+              <li><a href="#imgC4"><img src="img\coffe\4.jpg"class="img-thumbnail"></a></li>
+             
+          </ul>
+
+          <div class="modal" id="imgC1">
+              <h3>Empresarial</h3>
+              <div class="imagen">
+                  <a href="#imgC4">&#60;</a>
+                  <a href="#imgC2"><img src="img\coffe\1.jpg"></a>
+                  <a href="#imgC2">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
+          </div>
+          
+          <div class="modal" id="imgC2">
+              <h3>Empresarial</h3>
+              <div class="imagen">
+                  <a href="#imgC1">&#60;</a>
+                  <a href="#imgC3"><img src="img\coffe\2.jpg"></a>
+                  <a href="#imgC3">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
+          </div>
+          
+          <div class="modal" id="imgC3">
+              <h3>Empresarial</h3>
+              <div class="imagen">
+                  <a href="#imgC2">&#60;</a>
+                  <a href="#imgC4"><img src="img\coffe\3.jpg"></a>
+                  <a href="#imgC4">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
+          </div>
+          
+        
+        <div class="modal" id="imgC4">
+              <h3>Empresarial</h3>
+              <div class="imagen">
+                  <a href="#imgC2">&#60;</a>
+                  <a href="#imgC4"><img src="img\coffe\4.jpg"></a>
+                  <a href="#imgC1">></a>
+              </div>
+              <a class="cerrar" href="">X</a>
+          </div>
+               </div>
+
+              </div>
+              </div>
+
+              
+              </div>
+    
+    
+    
     </div>
+
+
+
+
+
   </section>
+
+<div class="separador"></div>
   <!--/about-->
   <!-- event -->
   <section id="event">
@@ -106,7 +312,7 @@
                      <div class="col-md-10" style="padding-bottom:60px;">
                       <div class="item active left">
                         <div class="col-md-6 col-sm-6 left-images">
-                          <img src="img/pinchos.jpg" class="img-responsive">
+                          <img src="img/empresarial/empre1.jpg" class="img-responsive">
                         </div>
                         <div class="col-md-6 col-sm-6 details-text">
                           <div class="content-holder">
@@ -120,13 +326,13 @@
                         </div>
                       </div>
                     </div>
-                  </li>
+                  </li> 
                    
-                  <li>
+                   <li>
                       <div class="col-md-10" style="padding-bottom:60px;">
                       <div class="item active left">
                         <div class="col-md-6 col-sm-6 left-images">
-                          <img src="img/pinchos.jpg" class="img-responsive">
+                          <img src="img/launch/hojaldrado1.gif" class="img-responsive">
                         </div>
                         <div class="col-md-6 col-sm-6 details-text">
                           <div class="content-holder">
@@ -145,7 +351,7 @@
                      <div class="col-md-10" style="padding-bottom:60px;">
                       <div class="item active left">
                         <div class="col-md-6 col-sm-6 left-images">
-                          <img src="img/res02.jpg" class="img-responsive">
+                          <img src="img/dulces/7.jpg" class="img-responsive">
                         </div>
                         <div class="col-md-6 col-sm-6 details-text">
                           <div class="content-holder">
@@ -166,7 +372,7 @@
                      <div class="col-md-10" style="padding-bottom:60px;">
                       <div class="item active left">
                         <div class="col-md-6 col-sm-6 left-images">
-                          <img src="img/res02.jpg" class="img-responsive">
+                          <img src="img/otros/otros1.jpg" class="img-responsive">
                         </div>
                         <div class="col-md-6 col-sm-6 details-text">
                           <div class="content-holder">
@@ -193,27 +399,56 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 class="header-h">Contactenos</h1>
+          <h1 class="header-h">Contáctenos</h1>
           <p class="header-p">Envianos tu consulta o pedido de presupuesto
-            <br>y te contactamos rapidamente </p>
+            <br>y le responderemos a la brevedad. </p>
         </div>
       </div>
       <div class="row msg-row">
         <div class="col-md-4 col-sm-4 mr-15">
           <div class="media-2">
             <div class="media-left">
-              <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
+             <a href="https://api.whatsapp.com/send?phone=5491157192131"class="wasa" title="Llamar" target="_blank"> 
+ <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div></a>
             </div>
             <div class="media-body">
+               <a href="https://api.whatsapp.com/send?phone=5491157192131"class="wasa" title="Llamar" target="_blank"> 
               <h4 class="dark-blue regular">Telefono</h4>
-              <p class="light-blue regular alt-p">- (011) 4981 1950 - <span class="contacts-sp"></span></p>
+              <p class="light-blue regular alt-p">- (011) 4981 1950 - <br/>(11) 15 5 719 2131  <span class="contacts-sp"></span></p></a>
+            </div>
+          </div>
+           <div class="media-2">
+            <div class="media-left">
+               <a href="https://www.facebook.com/natalia.tavernacatering/?fref=ts">
+              <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-facebook"></span></div></a>
+            </div>
+            <div class="media-body">
+            <a href="https://www.facebook.com/natalia.tavernacatering/?fref=ts">
+               <h4 class="dark-blue regular">Facebook</h4>
+              <p class="light-blue regular alt-p">natalia.tavernacatering<span class="contacts-sp"></span></p></a>
             </div>
           </div>
           <div class="media-2">
-           
-            
+          <div class="media-left">
+              <div class=" bg-1 text-center"><span class="phone-in-talk fa fa-envelope"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Email</h4>
+              <p class="light-blue regular alt-p"> <a href="mailto:info@tavernacatering.com.ar">info@tavernacatering.com.ar</a> <span class="contacts-sp"></span></p>
+            </div>
+            <div class="media-2">
+          <div class="media-left">
+            <a href="https://www.instagram.com/nataliatavernacatering" >
+              <div class=" bg-1 text-center"><span class="phone-in-talk fa fa-instagram"></span></div></a>
+            </div>
+            <div class="media-body">
+               <a href="https://www.instagram.com/nataliatavernacatering" >
+              <h4 class="dark-blue regular">Instagram</h4>
+              <p class="light-blue regular alt-p"> nataliatavernacatering<span class="contacts-sp"></span></p>
+            </div></a>
           </div>
         </div>
+</div>
         <div class="col-md-8 col-sm-8">
           <form action="" method="post" role="form" class="contactForm">
             <div class="col-md-6 col-sm-6 contact-form pad-form">
@@ -250,11 +485,12 @@
             
             <div class="col-md-12 btnpad">
               <div class="contacts-btn-pad">
-              <div id="sendmessage">Su mensaje se evió correctamente, nos pondremos en contacto a la brevedad!</div>
-            <div id="errormessage">Error al enviar el mensaje</div>
-                <button class="contacts-btn">Enviar</button>
-              </div>
+                  <div id="sendmessage">Su mensaje se evió correctamente, nos pondremos en contacto a la brevedad!</div>
+                  <div id="errormessage">Error al enviar el mensaje</div>
+                  <button class="contacts-btn">Enviar</button>
+                </div>
             </div>
+
           </form>
         </div>
       </div>
@@ -270,11 +506,11 @@
             <h4 class="widget-title">Natalia Taverna Catering</h4>
             <address>Arturo Jauretche 210<br>Caballito, Buenos Aires</address>
             <div class="social-list">
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="https://www.facebook.com/natalia.tavernacatering/?fref=ts"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              
+             
             </div>
             <p class="copyright clear-float">
-              © Billy The Print - Todos los derechos reservados
+              © Billy & Lo - Todos los derechos reservados
               <div class="credits">
                 
                

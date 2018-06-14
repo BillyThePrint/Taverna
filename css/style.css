@@ -30,15 +30,23 @@ table {
 	border-spacing: 0;
 }
 #banner{
-    background: url(../img/banner-bg.jpg) no-repeat center top;
+    background: url(../img/varias/mesa.gif) no-repeat center top;
     background-size: cover;
     min-height: 630px;
 }
+#servicios{
+    background: url(../img/cazuelas/5.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 630px;
+ 
+}
+
+
 .bg-color{
     background-color: RGBA(0, 0, 0, 0.61);
     min-height: 630px;
 }
-#banner h2{
+#banner h2,h3{
     font-family: 'Satisfy', sans-serif;
     font-size: 45px;
     color: #FFB03B;
@@ -478,7 +486,6 @@ table {
 }
 
 
-
 #slider{
     width: 80%;
     margin: auto;
@@ -514,7 +521,19 @@ table {
     font-size:25px;
     color:white;
 }
-
+.lista2{
+    font-style: 'Shadows Into Light', cursive;
+    font-size:25px;
+    color:whitesmoke;
+}
+.separador{
+margin-bottom: -10px;
+    background-color:#FE9A2E;
+    height: 30px;
+}
+a{
+color:#333;
+text-decoration:none}
 /* GALERIA DENTRO DE LAS PAGINAS */
 
 
